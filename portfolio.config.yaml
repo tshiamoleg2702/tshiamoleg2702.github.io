@@ -117,7 +117,16 @@ projects:
     liveUrl: ""
     repoUrl: "https://github.com/CMPG-223-Project-Group/Cmpg223Project"
     featured: true
-
+    
+    - name: "Cisco Packet Tracer - Network Simulation"
+    description: |
+      Designed and configured enterprise network topologies using Cisco Packet Tracer. 
+      Implemented OSPF, EIGRP, VLANs, ACLs, NAT, and DHCP in simulated environments.
+    tags: ["Cisco", "Packet Tracer", "Routing", "Switching", "Network Security"]
+    liveUrl: ""
+    repoUrl: "https://github.com/tshiamoleg2702/Cisco-packet-tracer"
+    featured: true
+    
   - name: "AI Medical Assistant Chatbot"
     description: |
       A Python-based AI chatbot developed in Spyder IDE that functions as a medical 
