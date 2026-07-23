@@ -123,7 +123,7 @@ projects:
       virtual assistant used in the medical field.
     tags: ["Python"]
     liveUrl: ""
-    repoUrl: "https://github.com/tshiamoleg2702/medicalchatbot.py"
+    repoUrl: "https://github.com/tshiamoleg2702/medical-assistant-chatbot"
     featured: false
 
   - name: "Rehabilitation Centre Database"
