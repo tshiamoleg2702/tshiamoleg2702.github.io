@@ -145,7 +145,13 @@ education:
       Life Sciences (80%), Business Studies (76%)
 
 # ── Certifications ─────────────────────────────────────────────────────
-certifications: []
+certifications:
+  - title: "AZ-204: Azure Developer Associate"
+    issuer: "Microsoft"
+    date: "2026"
+    credentialUrl: "paste-your-badge-link-here"
+    description: "Validates skills in developing Azure solutions."
+
 
 # ── Publications ───────────────────────────────────────────────────────
 publications: []
