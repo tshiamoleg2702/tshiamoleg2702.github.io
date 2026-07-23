@@ -117,13 +117,24 @@ projects:
     liveUrl: ""
     repoUrl: "https://github.com/CMPG-223-Project-Group/Cmpg223Project"
     featured: true
-- name: "AI medical assistant chatbot"
+
+  - name: "AI Medical Assistant Chatbot"
     description: |
-      A Python-based AI chatbot developed in Spyder IDE that functions as an intelligent 
-      virtual assistant used in the medical field.
-    tags: ["Python"]
+      A Python-based AI chatbot developed in Spyder IDE that functions as a medical 
+      assistant. This project demonstrates practical application of Natural Language Processing, API integration, and interactive 
+      programming.
+    tags: ["Python", "Spyder", "AI"]
     liveUrl: ""
     repoUrl: "https://github.com/tshiamoleg2702/medical-assistant-chatbot"
+    featured: false
+
+  - name: "Personal Portfolio Site"
+    description: |
+      This portfolio was built using the GitVitae template and customized with my personal
+      branding, color scheme, and content. Hosted on GitHub Pages with automated deployment.
+    tags: ["HTML", "CSS", "JavaScript", "GitHub Pages"]
+    liveUrl: "https://tshiamoleg2702.github.io"
+    repoUrl: "https://github.com/tshiamoleg2702/tshiamoleg2702.github.io"
     featured: false
 
   - name: "Rehabilitation Centre Database"
@@ -134,7 +145,7 @@ projects:
     tags: ["SQL", "Oracle DB"]
     liveUrl: ""
     repoUrl: ""
-    featured: false
+    featured: true
 
 # ── Education ──────────────────────────────────────────────────────────
 # FIXED: Replaced placeholders with YOUR actual education
