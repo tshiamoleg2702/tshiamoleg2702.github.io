@@ -13,262 +13,149 @@
 # ║  Change it to "portfolio" once you have filled in your details.      ║
 # ╚══════════════════════════════════════════════════════════════════════╝
 siteMode: "portfolio"   # ← CHANGE THIS to "portfolio"
-siteUrl:  "https://tshiamoleg2702.githiub.io"  # ← Your GitHub Pages URL (used for RSS & canonical links)
-showPoweredBy: false  # Set to true to show a small "Made with GitVitae" badge in your footer (helps others discover GitVitae)
+siteUrl: "https://tshiamoleg2702.github.io"  # ← FIXED: changed githiub to github
+showPoweredBy: false
 
 # ── Identity ───────────────────────────────────────────── (required) ──
-name: "Tshiamo Legoase"              # Your name — shown in the header and used as a fallback in the avatar
+name: "Tshiamo Legoase"
 title: "Virtual Curriculum Vitae of Information Technology Student"
-tagline: "Information Technology Student| Aspiring System Analyst"
+tagline: "Information Technology Student | Aspiring System Analyst"
 email: "tshiamolegoase@gmail.com"
-phone: "0622521169"                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
+phone: "0622521169"
 location: "Pretoria, Gauteng | Potchefstroom, North West"
 
-
 # ── Resume download ────────────────────────────────────────────────────
-# Optional: link directly to a hosted PDF (Google Drive, Dropbox, etc.)
-# If left blank the navbar "Resume" button opens the built-in resume page
-# where visitors can use "Save PDF" to print their own copy.
-#
-# How to get a direct download link:
-#   1. Visit /resume in your portfolio, click "Save PDF" -> save the file
-#   2. Upload that PDF to Google Drive / Dropbox and copy the direct link
-#   3. Paste the link below and update resumeFileName accordingly
-#
-# resumeUrl: "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID"
-# resumeFileName: "Git_Vitae_Resume.pdf"
+resumeUrl: ""
+resumeFileName: ""
 
 # ── Status ─────────────────────────────────────────────────────────────
-openToWork: true         # Shows "Open to Opportunities" banner when true
+openToWork: true
 
 # ── Theme ──────────────────────────────────────────────────────────────
-defaultTheme: "light"   # Options: light | dark | system
-colorPreset: "ocean"    # Options: indigo | emerald | rose | amber | ocean | slate | custom
-# primaryColor: "#6366f1" # Optional — pick any colour you like and paste its hex code here.
-                           # Overrides colorPreset above. To find a hex code:
-                           #   → Google "colour picker", pick a colour, copy the 6-digit code (e.g. #e11d48)
-                           #   → or grab one from coolors.co / your favourite site's colour
+defaultTheme: "light"
+colorPreset: "ocean"
 
 resumeTheme:
-  twoColumn: "dark blue"    # Accent color for the two-column resume layout
-  classic: "light blue"     # Accent color for the classic resume layout
+  twoColumn: "dark blue"
+  classic: "light blue"
 
-contactFormEndpoint: ""  # Optional — paste a Formspree URL (https://formspree.io/f/xxxx)
-                           # or any POST endpoint that accepts {name, email, message}.
-                           # Leave empty to use a pre-filled mailto: link instead.
+contactFormEndpoint: ""
 
 # ── Section visibility ─────────────────────────────────────────────────
-# Set show: false to hide any section from your portfolio
 sections:
   - { id: about,          show: true  }
-  - { id: stats,          show: false }  # Stats already appear as cards in the About section above — enable this only if you want a dedicated full-width stats section
+  - { id: stats,          show: true  }
   - { id: skills,         show: true  }
   - { id: languages,      show: true  }
   - { id: experience,     show: true  }
   - { id: projects,       show: true  }
   - { id: education,      show: true  }
-  - { id: certifications, show: false  }
+  - { id: certifications, show: false }
   - { id: publications,   show: false }
-  - { id: testimonials,   show: false  }
+  - { id: testimonials,   show: false }
   - { id: contact,        show: false }
 
-# ── Social links ───────────────────────────── (leave blank to hide) ───
+# ── Social links ──────────────────────────────────────────────────────
 social:
-  github:   "https://github.com/tshiamoleg2702"
+  github: "https://github.com/tshiamoleg2702"
   linkedin: "https://linkedin.com/in/tshiamo-legoase"
 
 # ── About ──────────────────────────────────────────────────────────────
-# Use | for multi-line text. Indent each line by 2 spaces.
 about: |
-    I am a final-year Bachelor of Science in Information Technology student who is
-    dedicated and a hard-working student with strong communication, teamwork and
-    problem-solving skills. I have a passion for technology, and I am eager to further learn
-    and develop practical skills. I hope to grow my industrial experience and contribute
-    positively in a professional environment
-
+  I am a final-year Bachelor of Science in Information Technology student who is
+  dedicated and hard-working with strong communication, teamwork and
+  problem-solving skills. I have a passion for technology, and I am eager to further learn
+  and develop practical skills. I hope to grow my industrial experience and contribute
+  positively in a professional environment.
 
 # ── Stats ──────────────────────────────────────────────────────────────
-# Customise each label and value freely — change "Projects Shipped" to
-# "Active Customers", "Happy Clients", "Open Source Stars", etc.
-# Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
-# Remove all entries or set show: false above to hide this section.
 stats:
-  - { label: "Academic GPA", value: 65,65,    suffix: "" }
-  - { label: "Projects Shipped", value: 10,   suffix: "+" }
-  - { label: "Credits to be achieved by end of 2026", value: 360,   suffix: "+" }
-
-
-# Examples of other combinations you can use:
-#   - { label: "Active Users",    value: 10000, suffix: "+" }
-#   - { label: "Revenue",         value: 2,     prefix: "$", suffix: "M+" }
-#   - { label: "Countries",       value: 12,    suffix: ""  }
+  - { label: "Academic Average", value: 65.65, suffix: "%" }  # FIXED: changed 65,65 to 65.65
+  - { label: "Projects Completed", value: 2, suffix: "" }
+  - { label: "Credits by end of 2026", value: 360, suffix: "+" }
 
 # ── Languages ──────────────────────────────────────────────────────────
-# level options: Native | Fluent | Conversational | Basic
 languages:
-  - { name: "English",  level: "Native"        }
-  - { name: "Setswana",  level: "Native" }
-  - { name: "Afrikaans", level: "Basic"          }
-  - { name: "IsiZulu", level: "Conbversational"          }
+  - { name: "English", level: "Native" }
+  - { name: "Setswana", level: "Native" }
+  - { name: "Afrikaans", level: "Basic" }
+  - { name: "IsiZulu", level: "Conversational" }  # FIXED: Conbversational → Conversational
 
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
   - category: "Programming Languages"
-    items: [Java, Python, C#, C , SQL]
+    items: ["Java", "Python", "C#", "C", "SQL"]  # FIXED: added quotes around C
   - category: "Frameworks and Technologies"
-    items: [.NET Frameworks, ASP.NET, CSS, HTML]
+    items: [".NET Frameworks", "ASP.NET", "CSS", "HTML"]
   - category: "Database Management"
-    items: [Oracle Database, Microsoft SQL Server, Database Design and Management]
+    items: ["Oracle Database", "Microsoft SQL Server", "Database Design and Management"]
   - category: "Tools"
-    items: [System Analysis, Microsoft Office, Azure]
+    items: ["Systems Analysis", "Microsoft Office", "Azure"]
 
 # ── Experience ─────────────────────────────────────────────────────────
-  - extracurricular activities: "Pretoria High School for Girls Choir"
-    achievements: "Half Colours award"
-    period: "2019 - 2023"
-    
-
+# FIXED: Completely rewritten with correct format
+experience:
+  - title: "Choir Member & Peer Counsellor"
+    organization: "Pretoria High School for Girls"
+    date: "2019 - 2023"
+    description: |
+      - Achieved Half Colours award for dedication and performance in the school choir
+      - Served as a Peer Counsellor, providing support and guidance to fellow students
+      - Developed strong communication, empathy, and teamwork skills
 
 # ── Projects ───────────────────────────────────────────────────────────
-# Set featured: true to show in the Featured section (max 3 recommended)
+# FIXED: Replaced placeholders with YOUR actual projects
 projects:
-  - name: "OpenDesk"
-    description: "An open-source project management tool built with React and Go. 2.3k GitHub stars. Real-time updates via WebSockets."
-    tags: [React, Go, WebSockets, PostgreSQL]
-    liveUrl: "https://opendesk.example.com"
-    repoUrl: "https://github.com/yourusername/opendesk"
+  - name: "Community Vegetable Garden Website"
+    description: |
+      A full-stack web application developed to manage a community vegetable garden initiative. 
+      The platform allows users to view garden updates, track produce availability, and manage 
+      volunteer schedules. Built using C# and ASP.NET with a Microsoft SQL Server backend.
+    tags: ["C#", "ASP.NET", "Microsoft SQL Server", "CSS", "HTML"]
+    liveUrl: ""
+    repoUrl: "https://github.com/tshiamoleg2702/vegetable-garden-website"
     featured: true
 
-  - name: "CodeLens"
-    description: "VS Code extension that uses AI to generate inline documentation. 10k+ installs from the marketplace."
-    tags: [TypeScript, OpenAI, "VS Code API"]
+  - name: "Rehabilitation Centre Database"
+    description: |
+      A relational database system designed for a rehabilitation centre to manage patient 
+      records, staff information, and treatment schedules. Implemented using SQL with Oracle 
+      Database to ensure data integrity and efficient data retrieval.
+    tags: ["SQL", "Oracle DB"]
     liveUrl: ""
-    repoUrl: "https://github.com/yourusername/codelens"
-    featured: true
-
-  - name: "PriceWatch"
-    description: "Browser extension that tracks price history on e-commerce sites and alerts users to drops."
-    tags: [JavaScript, "Chrome API", Node.js]
-    liveUrl: "https://pricewatch.example.com"
-    repoUrl: "https://github.com/yourusername/pricewatch"
-    featured: false
-
-  - name: "Logbook"
-    description: "A minimalist journaling app with end-to-end encryption. Built in a weekend. 500+ users."
-    tags: ["React Native", SQLite, Crypto]
-    liveUrl: ""
-    repoUrl: "https://github.com/yourusername/logbook"
+    repoUrl: ""
     featured: false
 
 # ── Education ──────────────────────────────────────────────────────────
+# FIXED: Replaced placeholders with YOUR actual education
 education:
-  - institution: "University of California, Berkeley"
-    degree: "B.S. Computer Science"
-    period: "2014 – 2018"
+  - institution: "North West University"
+    degree: "Bachelor of Science in Information Technology"
+    period: "2024 – 2026"
+    description: "Final-year student focusing on Information Technology and software development"
+
+  - institution: "Pretoria High School for Girls"
+    degree: "National Senior Certificate"
+    period: "2019 – 2023"
+    description: |
+      Subjects: English Home Language (73%), Afrikaans First Additional Language (74%), 
+      Life Orientation (86%), Mathematics (54%), Computer Applications Technology (73%), 
+      Life Sciences (80%), Business Studies (76%)
 
 # ── Certifications ─────────────────────────────────────────────────────
-certifications:
-  - title: "AWS Certified Solutions Architect – Associate"
-    issuer: "Amazon Web Services"
-    date: "2023"
-    credentialUrl: "https://aws.amazon.com/verification"
-    badgeUrl: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
-    tags: [Cloud, Architecture, AWS]
-
-  - title: "Professional Scrum Master I"
-    issuer: "Scrum.org"
-    date: "2022"
-    credentialUrl: "https://www.scrum.org/certificates"
-    badgeUrl: "https://images.credly.com/size/340x340/images/a2790314-008a-4c3d-9e11-2a8f48155adc/image.png"
-    tags: [Agile, Scrum, Leadership]
-
-  - title: "Google Professional Data Engineer"
-    issuer: "Google Cloud"
-    date: "2021"
-    credentialUrl: ""
-    badgeUrl: ""
-    tags: [Data, GCP, BigQuery]
-
+certifications: []
 
 # ── Publications ───────────────────────────────────────────────────────
-# Optional — ideal for researchers, academics, and technical writers.
-# type options: conference | journal | preprint | book-chapter | workshop
-publications:
-  - title: "Scaling Real-Time Collaboration in Distributed Systems"
-    authors: "Rivera A, Chen L, Patel S"
-    venue: "USENIX ATC 2023"
-    year: "2023"
-    url: "https://arxiv.org/abs/example"
-    type: "conference"
-    tags: [distributed-systems, real-time, scalability]
-
-  - title: "Micro-Frontend Architecture Patterns for Large-Scale SPAs"
-    authors: "Rivera A"
-    venue: "IEEE Software"
-    year: "2022"
-    url: ""
-    type: "journal"
-    tags: [frontend, architecture, micro-frontends]
+publications: []
 
 # ── Testimonials ───────────────────────────────────────────────────────
-testimonials:
-  - name: "Sarah Chen"
-    title: "Engineering Manager"
-    company: "Acme Corp"
-    relationship: "Manager"   # e.g. Manager | Colleague | Client | Mentor
-    quote: |
-      Alex is one of the most thoughtful engineers I've had the pleasure of
-      working with. They consistently delivered high-quality work on time and
-      elevated the entire team's standards.
-    photoUrl: ""              # URL to headshot — leave empty for initials
+testimonials: []
 
-  - name: "James Okafor"
-    title: "Senior Product Designer"
-    company: "Startup XYZ"
-    relationship: "Colleague"
-    quote: |
-      Working with Alex was a joy. They have a rare ability to translate vague
-      product requirements into clean, elegant code. Our collaboration made the
-      product significantly better.
-    photoUrl: ""
-
-  - name: "Priya Nair"
-    title: "CTO"
-    company: "FinTech Ventures"
-    relationship: "Client"
-    quote: |
-      Alex delivered the project ahead of schedule and the code quality was
-      exceptional. They communicated proactively, flagged risks early, and were
-      genuinely invested in our success.
-    photoUrl: ""
-
-# ── Analytics (optional, always free) ──────────────────────────────────────
-# Two ways to track who visits your portfolio — both free, no credit card:
-#
-# 1. GitHub built-in traffic (zero setup — already there!)
-#    Go to your repository → Insights → Traffic.
-#    Shows unique visitors, page views, and top referrers for the last 14 days.
-#
-# 2. GoatCounter (more detail, privacy-friendly, free forever for personal use)
-#    Sign up at https://www.goatcounter.com — you'll get a short code, e.g. "janedoe"
-#    Uncomment the two lines below and replace "yourcode" with your GoatCounter code:
-#
+# ── Analytics ──────────────────────────────────────────────────────
 # analytics:
 #   goatcounterCode: "yourcode"
 
-# ── Blog ─────────────────────────────────────────────────────────────────────
-# Drop any .md file into the blog/ folder — it becomes a post automatically.
-# Each post starts with a small block called "frontmatter" (between --- lines):
-#
-#   ---
-#   title: "My Post Title"
-#   date: "2025-01-15"
-#   tags: [life, tech]
-#   excerpt: "One sentence that appears on the listing page."
-#   ---
-#
-# Then write your post in plain Markdown below the closing ---.
-# See the sample posts in blog/ to get started.
+# ── Blog ───────────────────────────────────────────────────────────────
 blog:
   enabled: true
   title: "Blog"
