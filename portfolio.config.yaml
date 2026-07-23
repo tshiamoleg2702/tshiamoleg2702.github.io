@@ -23,6 +23,7 @@ tagline: "Information Technology Student | Aspiring System Analyst"
 email: "tshiamolegoase@gmail.com"
 phone: "0622521169"
 location: "Pretoria, Gauteng | Potchefstroom, North West"
+favicon: "/favicon.ico" 
 
 # ── Resume download ────────────────────────────────────────────────────
 resumeUrl: "/Tshiamo Legoase CV.pdf"
@@ -32,8 +33,8 @@ resumeFileName: "Tshiamo Legoase CV.pdf"
 openToWork: true
 
 # ── Theme ──────────────────────────────────────────────────────────────
-defaultTheme: "light"
-colorPreset: "ocean"
+defaultTheme: "dark"
+colorPreset: "slate"
 
 resumeTheme:
   twoColumn: "dark blue"
