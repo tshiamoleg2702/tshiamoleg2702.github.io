@@ -93,9 +93,9 @@ about: |
 # Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
 # Remove all entries or set show: false above to hide this section.
 stats:
-  - { label: "Academic GPA", value: 65.65,    suffix: "" }
+  - { label: "Academic GPA", value: 65,65,    suffix: "" }
   - { label: "Projects Shipped", value: 10,   suffix: "+" }
-  - { label: "Credits to be achieved by end of 2026",    value: 360,   suffix: "+" }
+  - { label: "Credits to be achieved by end of 2026", value: 360,   suffix: "+" }
 
 
 # Examples of other combinations you can use:
