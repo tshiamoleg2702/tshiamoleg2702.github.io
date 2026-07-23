@@ -43,7 +43,7 @@ openToWork: true         # Shows "Open to Opportunities" banner when true
 
 # ── Theme ──────────────────────────────────────────────────────────────
 defaultTheme: "light"   # Options: light | dark | system
-colorPreset: "sky"    # Options: indigo | emerald | rose | amber | ocean | slate | custom
+colorPreset: "ocean"    # Options: indigo | emerald | rose | amber | ocean | slate | custom
 # primaryColor: "#6366f1" # Optional — pick any colour you like and paste its hex code here.
                            # Overrides colorPreset above. To find a hex code:
                            #   → Google "colour picker", pick a colour, copy the 6-digit code (e.g. #e11d48)
@@ -80,11 +80,11 @@ social:
 # ── About ──────────────────────────────────────────────────────────────
 # Use | for multi-line text. Indent each line by 2 spaces.
 about: |
-I am a final-year Bachelor of Science in Information Technology student who is
-dedicated and a hard-working student with strong communication, teamwork and
-problem-solving skills. I have a passion for technology, and I am eager to further learn
-and develop practical skills. I hope to grow my industrial experience and contribute
-positively in a professional environment
+    I am a final-year Bachelor of Science in Information Technology student who is
+    dedicated and a hard-working student with strong communication, teamwork and
+    problem-solving skills. I have a passion for technology, and I am eager to further learn
+    and develop practical skills. I hope to grow my industrial experience and contribute
+    positively in a professional environment
 
 
 # ── Stats ──────────────────────────────────────────────────────────────
