@@ -25,8 +25,8 @@ phone: "0622521169"
 location: "Pretoria, Gauteng | Potchefstroom, North West"
 
 # ── Resume download ────────────────────────────────────────────────────
-resumeUrl: ""
-resumeFileName: ""
+resumeUrl: "/Tshiamo Legoase CV.pdf"
+resumeFileName: "Tshiamo Legoase CV.pdf"
 
 # ── Status ─────────────────────────────────────────────────────────────
 openToWork: true
@@ -95,13 +95,18 @@ skills:
 # ── Experience ─────────────────────────────────────────────────────────
 # FIXED: Completely rewritten with correct format
 experience:
-  - title: "Choir Member & Peer Counsellor"
+  - title: "Choir Member"
     organization: "Pretoria High School for Girls"
     date: "2019 - 2023"
     description: |
       - Achieved Half Colours award for dedication and performance in the school choir
+      - Developed time management skill and teamworking skills
+  - title: "Peer Counsellor"
+    organization: "Pretoria High School for Girls"
+    date: "2019 - 2023"
+    description: |
       - Served as a Peer Counsellor, providing support and guidance to fellow students
-      - Developed strong communication, empathy, and teamwork skills
+      - Developed strong communication, empathy and conflict resolution skills
 
 # ── Projects ───────────────────────────────────────────────────────────
 # FIXED: Replaced placeholders with YOUR actual projects
