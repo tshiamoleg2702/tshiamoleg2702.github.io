@@ -93,10 +93,10 @@ about: |
 # Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
 # Remove all entries or set show: false above to hide this section.
 stats:
-  - { label: "Years Experience", value: 5,    suffix: "+" }
-  - { label: "Projects Shipped", value: 20,   suffix: "+" }
-  - { label: "Happy Clients",    value: 50,   suffix: "+" }
-  - { label: "Cups of Coffee",   value: 1200, suffix: ""  }
+  - { label: "Academic GPA", value: 65.65,    suffix: "" }
+  - { label: "Projects Shipped", value: 10,   suffix: "+" }
+  - { label: "Credits to be achieved by end of 2026",    value: 360,   suffix: "+" }
+
 
 # Examples of other combinations you can use:
 #   - { label: "Active Users",    value: 10000, suffix: "+" }
@@ -123,16 +123,10 @@ skills:
     items: [System Analysis, Microsoft Office, Azure]
 
 # ── Experience ─────────────────────────────────────────────────────────
-experience:
-  - academic projects: "Individual"
-    period: "2024(first year)"
-    description: |
-      Led migration of monolithic Rails app to microservices.
-      Reduced p99 latency by 60%. Mentored a team of 4 engineers.
-    highlights:
-      - Microservices migration
-      - 60% latency reduction
-      - Team leadership
+  - extracurricular activities: "Pretoria High School for Girls Choir"
+    achievements: "Half Colours award"
+    period: "2019 - 2023"
+    
 
 
 # ── Projects ───────────────────────────────────────────────────────────
