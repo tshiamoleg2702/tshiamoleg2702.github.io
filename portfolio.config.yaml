@@ -63,11 +63,7 @@ social:
 
 # ── About ──────────────────────────────────────────────────────────────
 about: |
-  I am a final-year Bachelor of Science in Information Technology student who is
-  dedicated and hard-working with strong communication, teamwork and
-  problem-solving skills. I have a passion for technology, and I am eager to further learn
-  and develop practical skills. I hope to grow my industrial experience and contribute
-  positively in a professional environment.
+  I am a final-year Bachelor of Science in Information Technology student who is dedicated and hard-working with strong communication, teamwork and problem-solving skills. I have a passion for technology, and I am eager to further learn and develop practical skills. I hope to grow my industrial experience and contribute positively in a professional environment.
 
 # ── Stats ──────────────────────────────────────────────────────────────
 stats:
@@ -164,5 +160,4 @@ testimonials: []
 # ── Blog ───────────────────────────────────────────────────────────────
 blog:
   enabled: false
-  title: "Blog"
-  description: "Thoughts, stories and ideas — everything in one place."
+ 
