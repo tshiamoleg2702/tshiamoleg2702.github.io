@@ -157,6 +157,6 @@ testimonials: []
 
 # ── Blog ───────────────────────────────────────────────────────────────
 blog:
-  enabled: true
+  enabled: false
   title: "Blog"
   description: "Thoughts, stories and ideas — everything in one place."
