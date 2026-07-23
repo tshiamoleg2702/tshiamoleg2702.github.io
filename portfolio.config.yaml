@@ -68,7 +68,7 @@ about: |
 # ── Stats ──────────────────────────────────────────────────────────────
 stats:
   - { label: "Academic Average", value: 65.65, suffix: "%" }  # FIXED: changed 65,65 to 65.65
-  - { label: "Projects Completed", value: 2, suffix: "" }
+  - { label: "Projects Completed", value: 5, suffix: "" }
   - { label: "Credits by end of 2026", value: 360, suffix: "+" }
 
 # ── Languages ──────────────────────────────────────────────────────────
