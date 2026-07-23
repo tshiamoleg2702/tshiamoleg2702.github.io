@@ -75,17 +75,16 @@ sections:
 # ── Social links ───────────────────────────── (leave blank to hide) ───
 social:
   github:   "https://github.com/tshiamoleg2702"
-  linkedin: "https://linkedin.com/in/yourusername"
-  twitter:  ""
-  website:  ""
+  linkedin: "https://linkedin.com/in/tshiamo-legoase"
 
 # ── About ──────────────────────────────────────────────────────────────
 # Use | for multi-line text. Indent each line by 2 spaces.
 about: |
-  I'm a portfolio-resume engineer with 5+ years of experience building products
-  that people love. I specialize in React, Node.js, and distributed systems.
-  When I'm not coding, I'm hiking trails or experimenting with new coffee
-  brewing methods.
+I am a final-year Bachelor of Science in Information Technology student who is
+dedicated and a hard-working student with strong communication, teamwork and
+problem-solving skills. I have a passion for technology, and I am eager to further learn
+and develop practical skills. I hope to grow my industrial experience and contribute
+positively in a professional environment
 
 
 # ── Stats ──────────────────────────────────────────────────────────────
@@ -108,25 +107,25 @@ stats:
 # level options: Native | Fluent | Conversational | Basic
 languages:
   - { name: "English",  level: "Native"        }
-  - { name: "Spanish",  level: "Conversational" }
-  - { name: "Mandarin", level: "Basic"          }
+  - { name: "Setswana",  level: "Native" }
+  - { name: "Afrikaans", level: "Basic"          }
+  - { name: "IsiZulu", level: "Conbversational"          }
 
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
-  - category: "Frontend"
-    items: [React, TypeScript, Next.js, Tailwind CSS, Framer Motion]
-  - category: "Backend"
-    items: [Node.js, Express, PostgreSQL, Redis, GraphQL]
-  - category: "DevOps"
-    items: [Docker, AWS, CI/CD, Kubernetes, Terraform]
+  - category: "Programming Languages"
+    items: [Java, Python, C#, C , SQL]
+  - category: "Frameworks and Technologies"
+    items: [.NET Frameworks, ASP.NET, CSS, HTML]
+  - category: "Database Management"
+    items: [Oracle Database, Microsoft SQL Server, Database Design and Management]
   - category: "Tools"
-    items: [Git, Figma, Jest, Storybook, Datadog]
+    items: [System Analysis, Microsoft Office, Azure]
 
 # ── Experience ─────────────────────────────────────────────────────────
 experience:
-  - company: "Acme Corp"
-    role: "Senior Full-Stack Engineer"
-    period: "2022 – Present"
+  - academic projects: "Individual"
+    period: "2024(first year)"
     description: |
       Led migration of monolithic Rails app to microservices.
       Reduced p99 latency by 60%. Mentored a team of 4 engineers.
@@ -135,27 +134,6 @@ experience:
       - 60% latency reduction
       - Team leadership
 
-  - company: "Startup XYZ"
-    role: "Software Engineer"
-    period: "2020 – 2022"
-    description: |
-      Built real-time collaboration features for a SaaS platform serving
-      50k users. Owned the entire frontend from scratch.
-    highlights:
-      - Real-time collaboration
-      - 50k users
-      - Frontend ownership
-
-  - company: "Freelance"
-    role: "Web Developer"
-    period: "2018 – 2020"
-    description: |
-      Delivered 20+ web projects for small businesses and agencies across
-      e-commerce, marketing, and internal tools.
-    highlights:
-      - 20+ projects
-      - E-commerce
-      - Internal tools
 
 # ── Projects ───────────────────────────────────────────────────────────
 # Set featured: true to show in the Featured section (max 3 recommended)
