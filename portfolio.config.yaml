@@ -118,7 +118,7 @@ projects:
     repoUrl: "https://github.com/CMPG-223-Project-Group/Cmpg223Project"
     featured: true
     
-    - name: "Cisco Packet Tracer - Network Simulation"
+  - name: "Cisco Packet Tracer - Network Simulation"
     description: |
       Designed and configured enterprise network topologies using Cisco Packet Tracer. 
       Implemented OSPF, EIGRP, VLANs, ACLs, NAT, and DHCP in simulated environments.
