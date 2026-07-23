@@ -51,7 +51,7 @@ sections:
   - { id: experience,     show: true  }
   - { id: projects,       show: true  }
   - { id: education,      show: true  }
-  - { id: certifications, show: false }
+  - { id: certifications, show: true }
   - { id: publications,   show: false }
   - { id: testimonials,   show: false }
   - { id: contact,        show: false }
@@ -146,11 +146,11 @@ education:
 
 # ── Certifications ─────────────────────────────────────────────────────
 certifications:
-  - title: "AZ-204: Azure Developer Associate"
+  - title: "AZ-900: Azure Fundamentals"
     issuer: "Microsoft"
     date: "2026"
-    credentialUrl: "paste-your-badge-link-here"
-    description: "Validates skills in developing Azure solutions."
+    credentialUrl: "https://learn.microsoft.com/api/achievements/share/en-us/TshiamoLegoase-2857/EGGNMFSP?sharingId=BBED80865F2767E2"
+    description: " Introduction to Cloud Infrastructure that discusses basic cloud concepts and Azure deployments"
 
 
 # ── Publications ───────────────────────────────────────────────────────
