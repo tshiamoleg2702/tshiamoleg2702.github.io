@@ -117,6 +117,14 @@ projects:
     liveUrl: ""
     repoUrl: "https://github.com/CMPG-223-Project-Group/Cmpg223Project"
     featured: true
+- name: "AI medical assistant chatbot"
+    description: |
+      A Python-based AI chatbot developed in Spyder IDE that functions as an intelligent 
+      virtual assistant used in the medical field.
+    tags: ["Python"]
+    liveUrl: ""
+    repoUrl: "https://github.com/tshiamoleg2702/medicalchatbot.py"
+    featured: false
 
   - name: "Rehabilitation Centre Database"
     description: |
