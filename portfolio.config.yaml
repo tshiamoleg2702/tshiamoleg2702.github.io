@@ -30,7 +30,7 @@ resumeUrl: "/Tshiamo Legoase CV.pdf"
 resumeFileName: "Tshiamo Legoase CV.pdf"
 
 # ── Status ─────────────────────────────────────────────────────────────
-openToWork: true
+openToWork: false
 
 # ── Theme ──────────────────────────────────────────────────────────────
 defaultTheme: "dark"
