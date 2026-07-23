@@ -118,7 +118,7 @@ projects:
       volunteer schedules. Built using C# and ASP.NET with a Microsoft SQL Server backend.
     tags: ["C#", "ASP.NET", "Microsoft SQL Server", "CSS", "HTML"]
     liveUrl: ""
-    repoUrl: "https://github.com/tshiamoleg2702/vegetable-garden-website"
+    repoUrl: "https://github.com/CMPG-223-Project-Group/Cmpg223Project"
     featured: true
 
   - name: "Rehabilitation Centre Database"
